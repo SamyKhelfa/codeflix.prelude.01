@@ -1,7 +1,7 @@
 function charAt(str='', position){
     let char;
     for (i=0; i<str.length; i++){
-        if(i = position){
+        if(i === position){
             char = str[i];
             break;
         }
